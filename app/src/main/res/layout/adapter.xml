@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="2dp"
+    android:elevation="3dp"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+
+>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle"
+            android:id="@+id/vehicle"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle"
+            android:id="@+id/yearVal"
+            android:textStyle="bold"
+            android:textSize="17sp">
+
+        </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/brandval"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="17sp">
+
+        </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/body_type"
+            android:id="@+id/bodytype"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle"
+            android:id="@+id/bodyTypeVal"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_gravity="end">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:id="@+id/status"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:id="@+id/statusVal"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_gravity="end">
+
+        </TextView>
+
+
+
+    </GridLayout>
+
+</androidx.cardview.widget.CardView>
+</layout>

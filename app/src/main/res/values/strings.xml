@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NSW Vehicles</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="body_type">Body Type</string>
+    <string name="status">Status</string>
+    <string name="registered">Registered</string>
+    <string name="expired">Expired</string>
+    <string name="vehicleDetails">VehicleDetails</string>
+    <string name="registrationDetails">Registration Details</string>
+    <string name="insuranceDetails">Insurance Details</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="days_to_expire">Days to expire</string>
+    <string name="color">Color</string>
+    <string name="vin">Vin</string>
+    <string name="tare_mass">Tare Mass </string>
+    <string name="gross_vehicle_mass">Gross Vehicle Mass </string>
+    <string name="insurer">Insurer</string>
+    <string name="code">Code</string>
+
+</resources>
